@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: arial;
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.start .container {
+    background-image: url(git.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: right -60px top;
+}
+
+header {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+header .logo {
+    display: inline-block;
+    font-size: 30px;
+}
+
+.nav {
+    float: right;
+    font-size: 18px;
+}
+
+.nav ul {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.nav li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.highlight {
+    position: relative;
+    color: #e9204f;
+    width: 0;
+    margin: 8px 0;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.nav a:hover ~ .highlight {
+    opacity: 1;
+    width: 100%;
+}
+
+
+.start {
+    width: 100%;
+
+}
+
+.sect_start {
+    width: 80px;
+    margin: 110px 0;
+    margin-bottom: 20px;
+    border: 2px solid #e9204f;
+}
+
+.start h1 {
+    width: 700px;
+    font-size: 70px;
+}
+
+.start button {
+    color: white;
+    background-color: black;
+    border: 2px solid #e9204f;
+    border-radius: 0%;
+    transition: 0.2s;
+}
+
+.start button:hover {
+    background-color: #e9204f;
+}
+
+.start h2 {
+    margin: 16px 30px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.start .column {
+    width: 370px;
+    height: 430px;
+    background-color: #1b1b1b;
+    padding: 0 40px;
+    transition: 0.2s;
+}
+
+.start i {
+    font-size: 50px;
+    margin: 45px 0;
+    color: #e9204f;
+    transition: 0.2s;
+}
+
+.start h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.start p {
+    font-size: 18px;
+}
+
+.hr_start {
+    color: #e9204f;
+    width: 40px;
+    margin: 8px 0;
+    transition: 0.2s;
+}
+
+.start .child {
+    position: relative;
+    width: 130%;
+    height: 100px;
+    background-color: #e9204f;
+    margin-left: -40px;
+    margin-top: 50px;
+    z-index: -1;
+}
+
+.start .column:hover {
+    background-color: #e9204f;
+}
+
+.start .column:hover i {
+    color: white;
+}
+
+.start .column:hover hr {
+    color: white;
+}
+
+.glue {
+    width: 2px;
+    height: 30px;
+    background-color: #e9204f;
+    margin: auto;
+}
+
+.service {
+    position: relative;
+    width: 100%;
+    background-color: #101010;
+}
+
+.sect_hr {
+    color: #e9204f;
+    width: 40px;
+    margin: 0;
+    margin-top: 100px;
+}
+
+.sect_h1 {
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.sect_h3 {
+    color: #e9204f;
+    margin-top: 5px;
+}
+
+.service .column {
+    width: 370px;
+    height: 100px;
+    background-color: #1b1b1b;
+}
+
+.service .row {
+    margin-top: 45px;
+}
+
+.service button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #1b1b1b;
+    text-align: left;
+    padding: 0;
+    color: white;
+    transition: 0.2s;
+}
+
+.service h2 {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.service i {
+    float: right;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    transition: 0.2s;
+}
+
+.service button:hover {
+    background-color: #e9204f;
+}
+
+.service button:hover i {
+    transform: scale(2, 1.5);
+}
+
+.marg {
+    height: 150px;
+}
