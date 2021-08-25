@@ -104,7 +104,7 @@ Ant.prototype.dotOn = function (num) {
 };
 
 Ant.prototype.dotOff = function (num) {
-    this.indicatorDotsAll[num].style.cssText = 'background-color:#556; cursor:default;'
+    this.indicatorDotsAll[num].style.cssText = 'background-color:#e9204f; cursor:default;'
 };
 
 Ant.initialize = function (that) {
