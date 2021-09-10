@@ -3,16 +3,16 @@ let widthOfScreen = document.documentElement.clientWidth;
 function Ant() {
 
 
-    this.crslRoot = document.querySelector('.ant-carousel')
+    this.crslRoot = document.querySelector('.ant-carousel-1')
 
 
     // Carousel objects
-    this.crslList = this.crslRoot.querySelector('.ant-carousel-list');
-    this.crslElements = this.crslList.querySelectorAll('.ant-carousel-element');
-    this.crslElemFirst = this.crslList.querySelector('.ant-carousel-element');
-    this.leftArrow = this.crslRoot.querySelector('div.ant-carousel-arrow-left');
-    this.rightArrow = this.crslRoot.querySelector('div.ant-carousel-arrow-right');
-    this.indicatorDots = this.crslRoot.querySelector('div.ant-carousel-dots');
+    this.crslList = this.crslRoot.querySelector('.ant-carousel-1-list');
+    this.crslElements = this.crslList.querySelectorAll('.ant-carousel-1-element');
+    this.crslElemFirst = this.crslList.querySelector('.ant-carousel-1-element');
+    this.leftArrow = this.crslRoot.querySelector('div.ant-carousel-1-arrow-left');
+    this.rightArrow = this.crslRoot.querySelector('div.ant-carousel-1-arrow-right');
+    this.indicatorDots = this.crslRoot.querySelector('div.ant-carousel-1-dots');
 
     // Initialization
     this.options = Ant.defaults;
@@ -22,7 +22,7 @@ function Ant() {
 Ant.defaults = {
 
     // Default options for the carousel
-    elemVisible: 2, // Кол-во отображаемых элементов в карусели
+    elemVisible: 3, // Кол-во отображаемых элементов в карусели
     loop: true, // Бесконечное зацикливание карусели 
     auto: false, // Автоматическая прокрутка
     interval: 5000, // Интервал между прокруткой элементов (мс)

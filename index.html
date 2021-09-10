@@ -12,69 +12,87 @@
 <body>
     <header>
         <div class="container">
-            <div class="logo">Crescendo.</div>
+            <div class="logo"><a href="#">Crescendo.</a> </div>
+            <div class="bars">
+                <label class="bars" for="menu"><i class="fas fa-bars"></i></label>
+            </div>
+            <input class="nav-adaptive-box" id="menu" type="checkbox">
             <div class="nav">
                 <ul>
+                    <li class="searcher-alt">
+                        <input class="searcher-menu-alt" placeholder="Search.." type="text">
+                    </li>
                     <li><a href="#">Home <span class="highlight"></span></a>
-
+                        <hr class="members-hr">
                     </li>
-                    <li><a href="#">Services <span class="highlight"></span></a>
-
+                    <li><a href="#services">Services <span class="highlight"></span></a>
+                        <hr class="members-hr">
                     </li>
-                    <li><a href="#">Work <span class="highlight"></span></a>
-
+                    <li><a href="#work">Work <span class="highlight"></span></a>
+                        <hr class="members-hr">
                     </li>
-                    <li><a href="#">About <span class="highlight"></span></a>
-
+                    <li><a href="#about">About <span class="highlight"></span></a>
+                        <hr class="members-hr">
                     </li>
-                    <li><a href="#">Client <span class="highlight"></span></a>
-
+                    <li><a href="#producer">Client <span class="highlight"></span></a>
+                        <hr class="members-hr">
                     </li>
-                    <li><a href="#">Blog <span class="highlight"></span></a>
-
+                    <li><a href="#news">Blog <span class="highlight"></span></a>
+                        <hr class="members-hr">
                     </li>
-                    <li><a href="#">Contact <span class="highlight"></span></a>
-
+                    <li><a href="#contacts">Contact <span class="highlight"></span></a>
+                        <hr class="members-hr">
                     </li>
-                    <li><i class="fas fa-search"></i></li>
+                    <li class="searcher">
+                        <input id="searcher-box" type="checkbox">
+                        <input class="searcher-menu" id="searcher-box" placeholder="Search.." type="text">
+                        <label for="searcher-box"><i class="fas fa-search"></i></label>
+                    </li>
                 </ul>
             </div>
         </div>
     </header>
     <section class="start">
         <div class="container">
-            <!-- <hr> -->
             <hr class="sect_start">
             <h1>We're a recording studio.</h1>
-            <button class="but-common">
-                <h2>Getting Started</h2>
-            </button>
+            <div class="center-alt">
+                <button class="but-common">
+                    <h2>Getting Started</h2>
+                </button>
+            </div>
             <div class="grid">
                 <div class="child"></div>
                 <div class="row">
                     <div class="column">
                         <i class="fas fa-music"></i>
-                        <h3>Creating OSTs</h3>
-                        <hr class="hr_start">
+                        <div class="start-grid-adaptive">
+                            <h3>Creating OSTs </h3>
+                            <hr class="hr_start">
+                        </div>
                         <p>We will help you create unique soundtracks for films, video games and animation or record your existing music in high quality.</p>
                     </div>
                     <div class="column">
                         <i class="fas fa-guitar"></i>
-                        <h3>Different Genres</h3>
-                        <hr class="hr_start">
+                        <div class="start-grid-adaptive">
+                            <h3>Different Genres</h3>
+                            <hr class="hr_start">
+                        </div>
                         <p>There are many different genres of music we can provide to suit you in your very situation.</p>
                     </div>
                     <div class="column">
                         <i class="far fa-address-book"></i>
-                        <h3>Talented Members</h3>
-                        <hr class="hr_start">
+                        <div class="start-grid-adaptive">
+                            <h3>Talented Members</h3>
+                            <hr class="hr_start">
+                        </div>
                         <p>Take advantage of our exclusive roster of artists and composers to create your original soundtrack.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="service">
+    <section class="service" id="services">
         <div class="container">
             <div class="glue"></div>
             <hr class="sect-hr">
@@ -85,35 +103,35 @@
                         <h2>Digital Strategy</h2><i class="fas fa-arrow-right"></i>
                     </button></div>
                 <div class="column"><button>
-                        <h2>Digital Strategy</h2><i class="fas fa-arrow-right"></i>
+                        <h2>Ux Design</h2><i class="fas fa-arrow-right"></i>
                     </button></div>
                 <div class="column"><button>
-                        <h2>Digital Strategy</h2><i class="fas fa-arrow-right"></i>
+                        <h2>Product Design</h2><i class="fas fa-arrow-right"></i>
                     </button></div>
                 <div class="column"><button>
-                        <h2>Digital Strategy</h2><i class="fas fa-arrow-right"></i>
+                        <h2>Content Strategy</h2><i class="fas fa-arrow-right"></i>
                     </button></div>
                 <div class="column"><button>
-                        <h2>Digital Strategy</h2><i class="fas fa-arrow-right"></i>
+                        <h2>Design & Concept</h2><i class="fas fa-arrow-right"></i>
                     </button></div>
                 <div class="column"><button>
-                        <h2>Digital Strategy</h2><i class="fas fa-arrow-right"></i>
+                        <h2>Social Media</h2><i class="fas fa-arrow-right"></i>
                     </button></div>
                 <div class="column"><button>
-                        <h2>Digital Strategy</h2><i class="fas fa-arrow-right"></i>
+                        <h2>Media Planing</h2><i class="fas fa-arrow-right"></i>
                     </button></div>
                 <div class="column"><button>
-                        <h2>Digital Strategy</h2><i class="fas fa-arrow-right"></i>
+                        <h2>Brand Identity</h2><i class="fas fa-arrow-right"></i>
                     </button></div>
                 <div class="column"><button>
-                        <h2>Digital Strategy</h2><i class="fas fa-arrow-right"></i>
+                        <h2>SEO Optimization</h2><i class="fas fa-arrow-right"></i>
                     </button></div>
             </div>
             <div class="marg"></div>
             <div class="glue"></div>
         </div>
     </section>
-    <section class="works">
+    <section class="works" id="work">
         <div class="container">
             <div class="glue"></div>
             <hr class="sect-hr">
@@ -133,16 +151,16 @@
                         </li>
                         <li class="ant-carousel-element"><img src="carusel_2.jpg">
                         </li>
-                        <li class="ant-carousel-element"><img src="carusel_3.jpg">
+                        <li class="ant-carousel-element hide-element"><img src="carusel_3.jpg">
 
                         </li>
-                        <li class="ant-carousel-element"><img src="carusel_4.jpg">
+                        <li class="ant-carousel-element hide-element"><img src="carusel_4.jpg">
 
                         </li>
-                        <li class="ant-carousel-element"><img src="carusel_5.jpg">
+                        <li class="ant-carousel-element hide-element"><img src="carusel_5.jpg">
 
                         </li>
-                        <li class="ant-carousel-element"><img src="carusel_6.jpg">
+                        <li class="ant-carousel-element hide-element"><img src="carusel_6.jpg">
 
                         </li>
                     </ul>
@@ -151,18 +169,26 @@
                 <div class="ant-carousel-arrow-right"></div>
                 <div class="ant-carousel-dots"></div>
             </div>
+            <div class="container">
+                <div class="works-alt">
+                    <button class="but-common">
+                        <h2>View All</h2>
+                    </button>
+                </div>
+            </div>
         </div>
         <div class="marg"></div>
         <div class="glue"></div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="glue"></div>
         <div class="container">
             <hr class="sect-hr">
             <h1 class="sect-h1">About.</h1>
+            <p class="about-p">A recording studio is a specialized facility for sound recording, mixing, and audio production of instrumental or vocal musical performances, spoken words, and other sounds.</p>
             <h3 class="sect-h3">WE'RE MORE THAN A RECORDING STUDIO</h3>
             <div class="row">
-                <div class="bricks">
+                <div class="bricks first-column">
                     <div class="teamwork">
                         <div class="position">
                             <h2>Teamwork</h2>
@@ -171,7 +197,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="bricks">
+                <div class="bricks second-column">
                     <div class="studio">
                         <div class="position">
                             <h2>Studio</h2>
@@ -186,16 +212,18 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="column">
+        </div>
+        <div class="container">
+            <div class="row-about-p">
+                <div class="column-about-p">
                     <h2>Who we are</h2>
                     <p>A group of artists with diverse backgrounds willing to make something memorable and leave the mark in history. We simply write and perform orchestral music. Join us in our crusade.</p>
                 </div>
-                <div class="column">
+                <div class="column-about-p">
                     <h2>Our philosophy</h2>
                     <p>We seek only possibilities to create new astonishing pieces of art. Our works mostly inspired by greatest musicians of the past. That is why almost all of our music sounds similar to classic.</p>
                 </div>
-                <div class="column">
+                <div class="column-about-p">
                     <h2>How we work</h2>
                     <p>You have a project but lack music? We have a solution. Contact us and we will make original soundtrack that best suits your needs. We also have expirience co-working with game developers.</p>
                 </div>
@@ -204,7 +232,7 @@
         <div class="marg"></div>
         <div class="glue"></div>
     </section>
-    <section class="producer">
+    <section class="producer" id="producer">
         <div class="glue"></div>
         <div class="container">
             <div class="row">
@@ -216,28 +244,32 @@
                     <hr class="sect-hr">
                     <h1 class="sect-h1">Our Producer.</h1>
                     <h3 class="sect-h3">WE'RE MORE THAN A RECORDING STUDIO</h3>
+                    <div class="parent-alt">
+                        <div class="child"></div>
+                        <img src="producer.jpg">
+                    </div>
                     <p>I usually work in several post-production facilities in Paris and Angoulême, trying to achieve the best sound possible in video games and movies.
                         Sound editing and multichannel mixing are my main skills. During my trips, i enjoy recording beautifull atmospheres and foleys to enhance my soundbank.</p>
                     <hr class="producer-hr">
                     <h4>ALAN SMITH, SOUND ENGINEER</h4>
                 </div>
             </div>
-            <hr>
+            <hr class="members-hr">
             <div class="members">
                 <ul>
                     <li><a href="#">N'Oreal</a></li>
-                    <li><a href="#">norton</a></li>
+                    <li><a class="norton" href="#">norton</a></li>
                     <li><a href="#">Vorbes</a></li>
                     <li><a href="#">FRIDAY.</a></li>
-                    <li><a href="#">PANTHEON</a></li>
-                    <li><a href="#">HORUS</a></li>
+                    <li><a class="caps" href="#">Pantheon</a></li>
+                    <li class="horus"><a class="caps" href="#">Horus</a></li>
                 </ul>
             </div>
             <div class="marg"></div>
             <div class="glue"></div>
         </div>
     </section>
-    <section class="news">
+    <section class="news" id="news">
         <div class="glue"></div>
         <div class="marg"></div>
         <div class="container">
@@ -245,76 +277,94 @@
             <h3 class="sect-h3">CHECK OUT SOME OF OUR IDEAS</h3>
         </div>
         <div>
-            <div class="ant-carousel">
-                <div class="ant-carousel-hider">
-                    <ul class="ant-carousel-list">
-                        <li class="ant-carousel-element"><img src="carusel_0.jpg">
+            <div class="ant-carousel-1">
+                <div class="ant-carousel-1-hider">
+                    <ul class="ant-carousel-1-list">
+                        <li class="ant-carousel-1-element"><img src="news_0.jpg">
                         </li>
-                        <li class="ant-carousel-element"><img src="carusel_1.jpg">
+                        <li class="ant-carousel-1-element"><img src="news_1.jpg">
                         </li>
-                        <li class="ant-carousel-element"><img src="carusel_2.jpg">
+                        <li class="ant-carousel-1-element"><img src="news_2.jpg">
                         </li>
-                        <li class="ant-carousel-element"><img src="carusel_3.jpg">
+                        <li class="ant-carousel-1-element hide-element"><img src="news_3.jpg">
 
                         </li>
-                        <li class="ant-carousel-element"><img src="carusel_4.jpg">
+                        <li class="ant-carousel-1-element hide-element"><img src="news_4.jpg">
 
                         </li>
-                        <li class="ant-carousel-element"><img src="carusel_5.jpg">
+                        <li class="ant-carousel-1-element hide-element"><img src="news_5.jpg">
 
                         </li>
-                        <li class="ant-carousel-element"><img src="carusel_6.jpg">
+                        <li class="ant-carousel-1-element hide-element"><img src="news_6.jpg">
 
                         </li>
                     </ul>
                 </div>
-                <div class="ant-carousel-arrow-left"></div>
-                <div class="ant-carousel-arrow-right"></div>
-                <div class="ant-carousel-dots"></div>
+                <div class="ant-carousel-1-arrow-left"></div>
+                <div class="ant-carousel-1-arrow-right"></div>
+                <div class="ant-carousel-1-dots"></div>
+            </div>
+            <div class="container">
+                <div class="news-alt">
+                    <button class="but-common">
+                        <h2>View All</h2>
+                    </button>
+                </div>
             </div>
         </div>
         <div class="marg"></div>
         <div class="glue"></div>
     </section>
-    <section class="contacts">
-        <div class="glue"></div>
-        <div class="container">
-            <div class="row">
-                <div class="column">
-                    <ul>
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fab fa-reddit-alien"></i></a></li>
-                    </ul>
-                </div>
-                <div class="column">
-                    <h1>Let's Talk?</h1>
-                </div>
-                <div class="column">
-                    <button class="but-common">
-                        <h2>Make an enquiry!</h2>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="phone-sect">
-        <div class="phone">
-            <div class="paris">
-                <h4>Paris.</h4>
-                <a href="tel:+79000000000">+7(900)-000-00-00</a>
-            </div>
-            <div class="london">
-                <h4>London.</h4>
-                <a href="tel:+79001001010">+7(900)-100-10-10</a>
-            </div>
-        </div>
-    </section>
-    <footer>
 
+    <footer id="contacts">
+        <div class="contacts">
+            <div class="glue"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="column">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-reddit-alien"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h1>Let's Talk?</h1>
+                    </div>
+                    <div class="column">
+                        <button class="but-common">
+                            <h2>Make an enquiry!</h2>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="phone-sect">
+            <div class="phone">
+                <div class="paris">
+                    <h4>Paris.</h4>
+                    <a href="tel:+79000000000">+7(900)-000-00-00</a>
+                </div>
+                <div class="london">
+                    <h4>London.</h4>
+                    <a href="tel:+79001001010">+7(900)-100-10-10</a>
+                </div>
+            </div>
+        </div>
+        <div class="terms">
+            <div class="container">
+                <p>2021 © <a href="#">Crescendo</a>, All rights reserved.</p>
+                <ul>
+                    <li><a href="#">Terms of use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+        </div>
     </footer>
     <script src="script.js"></script>
+    <script src="script_1.js"></script>
 </body>
 
 </html>
